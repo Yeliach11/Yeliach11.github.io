@@ -1,0 +1,749 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/static/Montserrat-Bold.ttf") format("ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("fonts/static/Montserrat-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("fonts/Roboto-Light.ttf") format("ttf");
+  font-weight: 400;
+}
+.header {
+  max-width: 1440px;
+  background-image: url("Headaer and Promo.png");
+  height: 700px;
+  margin: 0 auto;
+}
+.header .logo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 46px;
+  align-items: center;
+}
+.header .logo h1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+.header .logo .menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .logo .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat-Regular", sans-serif;
+}
+.header .logo .menu button {
+  border: solid 3px white;
+  border-radius: 15px;
+  padding: 5px;
+  background: 0;
+}
+.header .infor {
+  text-align: center;
+  padding-top: 222.5px;
+}
+.header .infor h1 {
+  color: white;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 52px;
+  padding-bottom: 28.5px;
+}
+.header .infor p {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 24px;
+  color: #F7F3F2;
+  padding-bottom: 33px;
+}
+.header .infor button {
+  border: solid 0;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: #FF4E50;
+}
+.header .infor button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+}
+
+.content {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+.content h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 26px;
+}
+.content .element {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.content .element .step1 {
+  width: 300px;
+  height: 400px;
+  background-image: url("Step 1 image.png");
+  padding-top: 221px;
+  text-align: left;
+  padding-left: 25px;
+}
+.content .element .step1 button {
+  border: solid 0;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  width: 70px;
+  height: 20px;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+.content .element .step1 h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding-top: 15px;
+}
+.content .element .step1 p {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+  color: #E3E3E3;
+  padding-top: 20px;
+}
+.content .element .step2 {
+  width: 300px;
+  height: 400px;
+  background-image: url("Step 2 image (1).png");
+  padding-top: 221px;
+  text-align: left;
+  padding-left: 25px;
+}
+.content .element .step2 button {
+  border: solid 0;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  width: 70px;
+  height: 20px;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+.content .element .step2 h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding-top: 15px;
+}
+.content .element .step2 p {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+  color: #E3E3E3;
+  padding-top: 47px;
+}
+.content .element .step3 {
+  width: 300px;
+  height: 400px;
+  background-image: url("Step 3 image (2).png");
+  padding-top: 221px;
+  text-align: left;
+  padding-left: 25px;
+}
+.content .element .step3 button {
+  border: solid 0;
+  border-radius: 40px;
+  background-color: #FF4E50;
+  width: 70px;
+  height: 20px;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+.content .element .step3 h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding-top: 15px;
+}
+.content .element .step3 p {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+  color: #E3E3E3;
+  padding-top: 20px;
+}
+.content .parthner {
+  padding-top: 89px;
+}
+.content .parthner .people {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.content .parthner .people .Bradley {
+  width: 221px;
+}
+.content .parthner .people .Bradley h2 {
+  padding-top: 17px;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+}
+.content .parthner .people .Bradley p {
+  padding-top: 12px;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+.content .parthner button {
+  width: 180px;
+  height: 40px;
+  border: solid 2px #FF4E50;
+  border-radius: 40px;
+  background: 0px;
+}
+.content .parthner button a {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FF4E50;
+  text-decoration: none;
+}
+.content .ideas {
+  padding-top: 95px;
+  width: 940px;
+  height: 1131px;
+}
+.content .ideas h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 26px;
+}
+.content .ideas .holiday {
+  height: 1005px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 35px;
+  align-content: space-between;
+}
+.content .ideas .holiday .activ {
+  background-image: url("Object.png");
+  width: 300px;
+  height: 310px;
+}
+.content .ideas .holiday .activ h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .activ .black {
+  position: relative;
+  left: 0;
+  top: -27px;
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.content .ideas .holiday .Wellness {
+  background-image: url("Object1.png");
+  width: 300px;
+  height: 310px;
+}
+.content .ideas .holiday .Wellness h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Wellness .black {
+  position: relative;
+  left: 0;
+  top: -26px;
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.content .ideas .holiday .Extreme {
+  background-image: url("Object2.png");
+  width: 300px;
+  height: 310px;
+}
+.content .ideas .holiday .Extreme h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Extreme .black {
+  position: relative;
+  left: 0;
+  top: -53px;
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.content .ideas .holiday .Games {
+  background-image: url("Object3.png");
+  width: 300px;
+  height: 310px;
+}
+.content .ideas .holiday .Games h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Games .black {
+  position: relative;
+  left: 0;
+  top: -27px;
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+.content .ideas .holiday .Culture {
+  background-image: url("Object4.png");
+  width: 620px;
+  height: 310px;
+}
+.content .ideas .holiday .Culture h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Culture .black {
+  position: relative;
+  left: 0;
+  top: -27px;
+  width: 620px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.content .ideas .holiday .Enjomet {
+  background-image: url("Object5.png");
+  width: 620px;
+  height: 310px;
+}
+.content .ideas .holiday .Enjomet h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Enjomet .black {
+  position: relative;
+  left: 0;
+  top: -27px;
+  width: 620px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.content .ideas .holiday .Trevelling {
+  background-image: url("Object6.png");
+  width: 300px;
+  height: 310px;
+}
+.content .ideas .holiday .Trevelling h1 {
+  position: relative;
+  top: 142px;
+  color: white;
+  z-index: 1;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 22px;
+}
+.content .ideas .holiday .Trevelling .black {
+  position: relative;
+  left: 0;
+  top: -27px;
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.content .crate {
+  padding-top: 95px;
+}
+.content .crate h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 26px;
+}
+.content .crate p {
+  font-family: "Roboto-Light", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  padding-top: 43px;
+}
+.content .crate form {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.content .crate form input {
+  width: 299px;
+  height: 40px;
+  padding-left: 14px;
+  padding-top: 4px;
+  border: solid 1px #D4D4D4;
+  border-radius: 5px;
+}
+.content .crate form button {
+  border: solid 0;
+  border-radius: 40px;
+  width: 172.12px;
+  height: 40px;
+  background-color: #FF4E50;
+}
+.content .crate form button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+}
+
+hr {
+  border: solid 2px #FF4E50;
+}
+
+.footer {
+  max-width: 944px;
+  height: 175px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.footer h2 {
+  font-size: 16px;
+  font-family: "Montserrat-Regular", sans-serif;
+  color: #FF4E50;
+}
+.footer #Par {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.footer .company h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.footer .company ul li {
+  list-style: none;
+  padding-top: 10px;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.footer .emblem h2 {
+  text-align: right;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 10px;
+  color: #CCCCCC;
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 768px;
+    background-image: url("Background.png");
+  }
+  .header .logo {
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+  .content {
+    width: 748px;
+  }
+  .content .element .step1 {
+    padding-top: 205px;
+    background-image: url("one.png");
+    width: 236px;
+    height: 400px;
+  }
+  .content .element .step2 {
+    padding-top: 205px;
+    background-image: url("two.png");
+    width: 236px;
+    height: 400px;
+  }
+  .content .element .step3 {
+    padding-top: 205px;
+    background-image: url("thre.png");
+    width: 236px;
+    height: 400px;
+  }
+  .content .parthner .people {
+    width: 492px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .content .ideas {
+    width: 748px;
+  }
+  .content .ideas .holiday {
+    width: 745px;
+    margin: 0 auto;
+  }
+  .content .ideas .holiday .activ {
+    background-image: url("el.png");
+    width: 236px;
+    height: 310px;
+  }
+  .content .ideas .holiday .activ .black {
+    width: 236px;
+  }
+  .content .ideas .holiday .Wellness {
+    background-image: url("el1.png");
+    width: 236px;
+  }
+  .content .ideas .holiday .Wellness .black {
+    width: 236px;
+  }
+  .content .ideas .holiday .Extreme {
+    background-image: url("el2.png");
+    width: 236px;
+  }
+  .content .ideas .holiday .Extreme .black {
+    width: 236px;
+  }
+  .content .ideas .holiday .Games {
+    background-image: url("el3.png");
+    width: 236px;
+  }
+  .content .ideas .holiday .Games .black {
+    width: 236px;
+  }
+  .content .ideas .holiday .Culture {
+    background-image: url("el4.png");
+    width: 492px;
+  }
+  .content .ideas .holiday .Culture .black {
+    width: 492px;
+  }
+  .content .ideas .holiday .Enjomet {
+    background-image: url("el5.png");
+    width: 492px;
+  }
+  .content .ideas .holiday .Enjomet .black {
+    width: 492px;
+  }
+  .content .ideas .holiday .Trevelling {
+    background-image: url("el6.png");
+    width: 236px;
+  }
+  .content .ideas .holiday .Trevelling .black {
+    width: 236px;
+  }
+  .footer {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 310px) {
+  .header {
+    background-image: url("Background12.png");
+    max-width: 310px;
+    height: 540px;
+  }
+  .header .infor {
+    padding-top: 26.5px;
+  }
+  .header .infor h1 {
+    font-size: 30px;
+  }
+  .header .infor p {
+    font-size: 18px;
+  }
+  .header .logo {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 97px;
+  }
+  .content {
+    width: 300px;
+  }
+  .content .element {
+    flex-wrap: wrap;
+  }
+  .content .element .step1 {
+    padding-top: 69px;
+    background-image: url("st1.png");
+    width: 300px;
+    height: 240px;
+  }
+  .content .element .step2 {
+    padding-top: 69px;
+    background-image: url("st2.png");
+    width: 300px;
+    height: 240px;
+  }
+  .content .element .step3 {
+    padding-top: 69px;
+    background-image: url("st3.png");
+    width: 300px;
+    height: 240px;
+  }
+  .content .parthner .people {
+    width: 300px;
+    justify-content: center;
+  }
+  .content .ideas {
+    width: 305px;
+  }
+  .content .ideas .holiday {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .content .ideas .holiday .activ {
+    background-image: url("ml.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .activ h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .activ .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Wellness {
+    background-image: url("ml1.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Wellness h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Wellness .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Extreme {
+    background-image: url("ml2.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Extreme h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Extreme .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Games {
+    background-image: url("ml3.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Games h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Games .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Culture {
+    background-image: url("ml4.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Culture h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Culture .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Enjomet {
+    background-image: url("ml5.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Enjomet h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Enjomet .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Trevelling {
+    background-image: url("ml6.png");
+    width: 300px;
+    height: 120px;
+  }
+  .content .ideas .holiday .Trevelling h1 {
+    top: 25px;
+  }
+  .content .ideas .holiday .Trevelling .black {
+    width: 300px;
+    height: 120px;
+  }
+  .content .crate form {
+    flex-wrap: wrap;
+  }
+  .content .crate form input {
+    width: 280px;
+  }
+  .content .crate form button {
+    width: 280px;
+  }
+  .footer {
+    width: 186px;
+    height: 184px;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+  }
+  .footer #Par {
+    width: 80px;
+  }
+  .footer .company {
+    text-align: center;
+    width: 200px;
+  }
+  .footer .company ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .footer .emblem h2 {
+    font-size: 6px;
+  }
+}
+
+/*# sourceMappingURL=stile.css.map */

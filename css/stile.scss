@@ -1,0 +1,758 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/static/Montserrat-Bold.ttf") format('ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("fonts/static/Montserrat-Regular.ttf") format('ttf');
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("fonts/Roboto-Light.ttf") format('ttf');
+  font-weight: 400;
+}
+.header{
+  max-width: 1440px;
+  background-image: url("Headaer and Promo.png");
+  height: 700px;
+  margin: 0 auto;
+  .logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 46px;
+    align-items: center;
+    h1{
+      color: white;
+      font-size: 20px;
+      font-family: 'Montserrat-Bold', sans-serif;
+    }
+    .menu{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-family: 'Montserrat-Regular', sans-serif;
+      }
+      button{
+        border: solid 3px white;
+        border-radius: 15px;
+        padding: 5px;
+        background: 0;
+      }
+    }
+  }
+  .infor{
+    text-align: center;
+    padding-top: 222.5px;
+    h1{
+      color: white;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 52px;
+      padding-bottom: 28.5px;
+    }
+    p{
+      font-family: 'Roboto-Light', sans-serif;
+      font-size: 24px;
+      color: #F7F3F2;
+      padding-bottom: 33px;
+    }
+    button{
+      border: solid 0;
+      border-radius: 40px;
+      padding: 15px;
+      background-color: #FF4E50;
+      a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 14px;
+      }
+    }
+    }
+  }
+.content{
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 100px;
+  h1{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 26px;
+  }
+  .element{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    .step1{
+      width: 300px;
+      height: 400px;
+      background-image: url("Step 1 image.png");
+      padding-top: 221px;
+      text-align: left;
+      padding-left: 25px;
+      button{
+        border: solid 0;
+        border-radius: 40px;
+        background-color: #FF4E50;
+        width: 70px;
+        height: 20px;
+        font-family: 'Montserrat-Regular', sans-serif;
+        font-size: 10px;
+        color: white;
+      }
+      h1{
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 24px;
+        color: white;
+        padding-top: 15px;
+      }
+      p{
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #E3E3E3;
+        padding-top: 20px;
+      }
+    }
+    .step2{
+      width: 300px;
+      height: 400px;
+      background-image: url("Step 2 image (1).png");
+      padding-top: 221px;
+      text-align: left;
+      padding-left: 25px;
+      button{
+        border: solid 0;
+        border-radius: 40px;
+        background-color: #FF4E50;
+        width: 70px;
+        height: 20px;
+        font-family: 'Montserrat-Regular', sans-serif;
+        font-size: 10px;
+        color: white;
+      }
+      h1{
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 24px;
+        color: white;
+        padding-top: 15px;
+      }
+      p{
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #E3E3E3;
+        padding-top: 47px;
+      }
+    }
+    .step3{
+      width: 300px;
+      height: 400px;
+      background-image: url("Step 3 image (2).png");
+      padding-top: 221px;
+      text-align: left;
+      padding-left: 25px;
+      button{
+        border: solid 0;
+        border-radius: 40px;
+        background-color: #FF4E50;
+        width: 70px;
+        height: 20px;
+        font-family: 'Montserrat-Regular', sans-serif;
+        font-size: 10px;
+        color: white;
+      }
+      h1{
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-size: 24px;
+        color: white;
+        padding-top: 15px;
+      }
+      p{
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #E3E3E3;
+        padding-top: 20px;
+      }
+    }
+  }
+  .parthner{
+    padding-top: 89px;
+    .people{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      .Bradley{
+        width: 221px;
+        h2{
+          padding-top: 17px;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 14px;
+        }
+        p{
+          padding-top: 12px;
+          font-family: 'Roboto-Light', sans-serif;
+          font-size: 14px;
+          color: #666666;
+        }
+      }
+    }
+    button{
+      width: 180px;
+      height: 40px;
+      border: solid 2px #FF4E50;
+      border-radius: 40px;
+      background: 0px;
+      a{
+        font-family: 'Montserrat-Bold', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #FF4E50;
+        text-decoration: none;
+      }
+    }
+  }
+  .ideas{
+    padding-top: 95px;
+    width: 940px;
+    height: 1131px;
+    h1{
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 26px;
+    }
+    .holiday{
+      height: 1005px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 35px;
+      align-content: space-between;
+      .activ{
+        background-image: url("Object.png");
+        width: 300px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -27px;
+          width: 300px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        }
+      }
+      .Wellness{
+        background-image: url("Object1.png");
+        width: 300px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -26px;
+          width: 300px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        }
+      }
+      .Extreme{
+        background-image: url("Object2.png");
+        width: 300px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -53px;
+          width: 300px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        }
+      }
+      .Games{
+        background-image: url("Object3.png");
+        width: 300px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -27px;
+          width: 300px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        }
+      }
+      .Culture{
+        background-image: url("Object4.png");
+        width: 620px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -27px;
+          width: 620px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        }
+      }
+      .Enjomet{
+        background-image: url("Object5.png");
+        width: 620px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -27px;
+          width: 620px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        }
+      }
+      .Trevelling{
+        background-image: url("Object6.png");
+        width: 300px;
+        height: 310px;
+        h1{
+          position: relative;
+          top: 142px;
+          color: white;
+          z-index: 1;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 22px;
+        }
+        .black{
+          position: relative;
+          left: 0;
+          top: -27px;
+          width: 300px;
+          height: 310px;
+          border-radius: 5px;
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        }
+      }
+    }
+  }
+  .crate{
+    padding-top: 95px;
+    h1{
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 26px;
+    }
+    p{
+      font-family: 'Roboto-Light', sans-serif;
+      font-weight: lighter;
+      font-size: 18px;
+      padding-top: 43px;
+    }
+    form {
+      padding-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      input{
+        width: 299px;
+        height: 40px;
+        padding-left: 14px;
+        padding-top: 4px;
+        border: solid 1px #D4D4D4;
+        border-radius: 5px;
+      }
+      button{
+        border: solid 0;
+        border-radius: 40px;
+        width: 172.12px;
+        height: 40px;
+        background-color: #FF4E50;
+        a{
+          color: white;
+          text-decoration: none;
+          font-family: 'Montserrat-Bold', sans-serif;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+hr{
+  border: solid 2px #FF4E50;
+}
+.footer{
+  max-width: 944px;
+  height: 175px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  h2{
+    font-size: 16px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #FF4E50;
+  }
+  #Par{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 14px;
+    color: black;
+  }
+  .company{
+    h2{
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 14px;
+      color: black;
+    }
+    ul{
+      li{
+        list-style: none;
+        padding-top: 10px;
+        font-family: 'Roboto-Light', sans-serif;
+        font-size: 14px;
+        color: #999999;
+      }
+    }
+  }
+.emblem{
+  h2{
+    text-align: right;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 10px;
+    color: #CCCCCC;
+  }
+}
+}
+@media (max-width: 768px){
+  .header{
+    max-width: 768px;
+    background-image: url("Background.png");
+    .logo{
+      justify-content: space-between;
+      margin: 0 50px;
+    }
+  }
+  .content{
+    width: 748px;
+    .element{
+      .step1{
+        padding-top: 205px;
+        background-image: url("one.png");
+        width: 236px;
+        height: 400px;
+      }
+      .step2{
+        padding-top: 205px;
+        background-image: url("two.png");
+        width: 236px;
+        height: 400px;
+      }
+      .step3{
+        padding-top: 205px;
+        background-image: url("thre.png");
+        width: 236px;
+        height: 400px;
+      }
+    }
+    .parthner{
+      .people{
+        width: 492px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+      }
+    }
+    .ideas{
+      width: 748px;
+      .holiday{
+        width: 745px;
+        margin: 0 auto;
+        .activ{
+          background-image: url("el.png");
+          width: 236px;
+          height: 310px;
+          .black{
+            width: 236px;
+          }
+        }
+        .Wellness{
+          background-image: url("el1.png");
+          width: 236px;
+          .black{
+            width: 236px;
+          }
+        }
+        .Extreme {
+          background-image: url("el2.png");
+          width: 236px;
+          .black {
+            width: 236px;
+          }
+        }
+        .Games {
+          background-image: url("el3.png");
+          width: 236px;
+          .black {
+            width: 236px;
+          }
+        }
+        .Culture {
+          background-image: url("el4.png");
+          width: 492px;
+          .black {
+            width: 492px;
+          }
+        }
+        .Enjomet {
+          background-image: url("el5.png");
+          width: 492px;
+          .black {
+            width: 492px;
+          }
+        }
+        .Trevelling {
+          background-image: url("el6.png");
+          width: 236px;
+          .black {
+            width: 236px;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 310px){
+  .header{
+    background-image: url("Background12.png");
+    max-width: 310px;
+    height: 540px;
+    .infor{
+      padding-top: 26.5px;
+      h1{
+        font-size: 30px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+    .logo{
+      justify-content: center;
+      flex-wrap: wrap-reverse;
+      gap: 97px;
+    }
+  }
+  .content{
+    width: 300px;
+    .element{
+      flex-wrap: wrap;
+      .step1{
+        padding-top: 69px;
+        background-image: url("st1.png");
+        width: 300px;
+        height: 240px;
+      }
+      .step2{
+        padding-top: 69px;
+        background-image: url("st2.png");
+        width: 300px;
+        height: 240px;
+      }
+      .step3{
+        padding-top: 69px;
+        background-image: url("st3.png");
+        width: 300px;
+        height: 240px;
+      }
+    }
+    .parthner{
+      .people{
+        width: 300px;
+        justify-content: center;
+      }
+    }
+    .ideas{
+      width: 305px;
+      .holiday{
+        width: 300px;
+        margin: 0 auto;
+        .activ{
+          background-image: url("ml.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black{
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Wellness{
+          background-image: url("ml1.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black{
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Extreme {
+          background-image: url("ml2.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black {
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Games {
+          background-image: url("ml3.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black {
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Culture {
+          background-image: url("ml4.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black {
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Enjomet {
+          background-image: url("ml5.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black {
+            width: 300px;
+            height: 120px;
+          }
+        }
+        .Trevelling {
+          background-image: url("ml6.png");
+          width: 300px;
+          height: 120px;
+          h1{
+            top: 25px;
+          }
+          .black {
+            width: 300px;
+            height: 120px;
+          }
+        }
+      }
+    }
+    .crate{
+      form{
+        flex-wrap: wrap;
+        input{
+          width: 280px;
+        }
+        button{
+          width: 280px;
+        }
+      }
+    }
+  }
+  .footer{
+    width: 186px;
+    height: 184px;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+    #Par{
+      width: 80px;
+    }
+    .company{
+      text-align: center;
+      width: 200px;
+      ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+    }
+    .emblem{
+      h2{
+        font-size: 6px;
+      }
+    }
+  }
+}
